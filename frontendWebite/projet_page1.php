@@ -70,6 +70,7 @@
                     <a href="projet_page_vetements.php">Vêtements</a>
                     <a href="projet_page_magasins.php">Magasins</a>
                     <a href="projet_page_plans.php">Bons plans</a>
+                    <a href="../../donneeEspaceMembre/connexion.php">Se connecter</a>
                   </div>
                 </div>
               </li>
@@ -78,6 +79,8 @@
               <li><a id="elemNav" href="#section2">Vêtements</a></li>
               <li><a id="elemNav" href="#section3">Magasins</a></li>
               <li><a id="elemNav" href="#section4">Bons plans</a></li>
+              <li><a id="elemNav" href="../donneeEspaceMembre/connexion.php">Se Connecter</a></li>
+              <li><a id="elemNav" href="../donneeEspaceMembre/type_inscription.php">S'inscrire</a></li>
             </ul>
             <a href="projet_page_client.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
             <a href="projet_page_panier.php"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
