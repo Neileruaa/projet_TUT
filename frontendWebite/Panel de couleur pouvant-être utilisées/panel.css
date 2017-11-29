@@ -1,0 +1,42 @@
+.bordeau {
+  display: inline-block;
+  padding: 100px;
+  background-color: #942222;
+  width: 100px;
+  height: 100px;
+}
+.orange {
+  display: inline-block;
+  padding: 100px;
+  background-color: #C7750C;
+  width: 100px;
+  height: 100px;
+}
+.bleuMarine {
+  display: inline-block;
+  padding: 100px;
+  background-color: #0A1845;
+  width: 100px;
+  height: 100px;
+}
+.rosePale {
+  display: inline-block;
+  padding: 100px;
+  background-color: #FAE7E7;
+  width: 100px;
+  height: 100px;
+}
+.blancCasse {
+  display: inline-block;
+  padding: 100px;
+  background-color: #FCFBD3;
+  width: 100px;
+  height: 100px;
+}
+.vertAnglais {
+  display: inline-block;
+  padding: 100px;
+  background-color: #143804;
+  width: 100px;
+  height: 100px;
+}

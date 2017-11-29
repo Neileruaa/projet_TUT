@@ -1,0 +1,121 @@
+body {
+  margin: 0px;
+}
+
+#barres {
+  padding-left: 16px;
+  padding-top: 17px;
+  position: absolute;
+  z-index: 10
+}
+.menu {
+
+  width: 86px;
+  height: 87px;
+  overflow: hidden;
+  position: absolute;
+}
+.menu:hover {
+  width: 200px;
+  height: 387px;
+}
+.sous-menu {
+  z-index: 10;
+  width: 200px;
+  height: 210px;
+  position: relative;
+  border-radius: 5%;
+  border: solid black 1px;
+  background-color: #942222;
+  margin: 0px;
+  padding:0px;
+  top: 87px;
+}
+.sous-menu li a{
+  font-size: 30px;
+  color: black;
+  padding: 5px 0px;
+  margin: 0px;
+}
+.sous-menu li {
+  padding: 5px 0px;
+}
+#header {
+  padding: 0px;
+  margin: 0px;
+  background: #942222;
+}
+
+#footer {
+  padding-top: 20px;
+  background: #942222;
+  height: 110px;
+  float: inherit;
+}
+#footer span{
+  text-decoration: underline;
+}
+#footer div{
+  display: inline-block;
+  width: 150px;
+  top: 10px;
+}
+#footer ul {
+  margin: 0px;
+
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+.dropbtns {
+    background-color: #942222;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.dropdowns {
+    margin-left: 10px;
+    position: relative;
+    display: inline-block;
+}
+.dropdown-contents {
+    display: none;
+    position: absolute;
+    background-color: #FCFBD3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-contents a {
+  font-size: 18px;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-contents a:hover {background-color: #FCFBD3}
+.dropdowns:hover .dropdown-contents {
+    display: block;
+}
+.dropdowns:hover .dropbtns {
+    background-color: #942222;
+}
+#container {
+    max-width: 70%;
+}
+#myCarousel {
+  padding-top:56px;
+  overflow: hidden;
+}
+.glyphicon {
+  padding: 15px 15px 0px 0px;
+  color: white;
+  font-size: 35px;
+  float: right;
+}
+.glyphicon:hover {
+  font-size: 38px;
+}
