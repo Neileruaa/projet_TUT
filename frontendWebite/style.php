@@ -1,8 +1,5 @@
 <style>
-    .sec {
-      margin-bottom: 20px;
-      text-align: center;
-    }
+
     nav#myScrollspy.col-sm-3 {
       height: 100%;
     }
