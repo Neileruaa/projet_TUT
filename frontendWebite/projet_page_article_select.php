@@ -55,16 +55,21 @@
             <td class="desc"><img src="fringues/3.jpg" alt="pull"><p>Pull en laine bleu </p><button type="button" class="btn btn-primary btn-lg" style="background: gray; border: gray;">Ajouter au panier</button></td>
           </tr>
           <tr><td><p class="prix">PRIX</p>
-              <div class="dropdowns">
-                <button class="dropbtns size">Taille</button>
-                <div class="dropdown-contents">
-                  <a href="#">XL</a>
-                  <a href="#">L</a>
-                  <a href="#">M</a>
-                  <a href="#">S</a>
-                  <a href="#">XS</a>
+            <nav class="navbar navbar-default taille"> <!--Barre de navigation dans les tailles-->
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <span class="navbar-brand">Taille</span>
                 </div>
+                <ul class="nav navbar-nav">
+                  <li><a href="#">XXL</a></li>
+                  <li><a href="#">XL</a></li>
+                  <li><a href="#">L</a></li>
+                  <li><a href="#">M</a></li>
+                  <li><a href="#">S</a></li>
+                  <li><a href="#">XS</a></li>
+                </ul>
               </div>
+            </nav>
             </td>
           </tr>
         </table>

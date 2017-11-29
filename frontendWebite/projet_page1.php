@@ -37,6 +37,9 @@
             color: black;
             text-decoration: none;
           }
+          #elemNav {
+            padding-bottom: 22px;
+          }
     </style>
 
   </head>
@@ -70,12 +73,11 @@
                   </div>
                 </div>
               </li>
-              <li><a href="#myCarousel">Accueil</a></li>
-              <li><a href="#section1">Section 1</a></li>
-              <li><a href="#section2">Nouveautés</a></li>
-              <li><a href="#section3">Section 3</a></li>
-              <li><a href="#section4">Section 4</a></li>
-              <li><a href="#section5">Section 5</a></li>
+              <li><a id="elemNav" href="#myCarousel">Accueil</a></li>
+              <li><a id="elemNav" href="#section1">Nouveautés</a></li>
+              <li><a id="elemNav" href="#section2">Vêtements</a></li>
+              <li><a id="elemNav" href="#section3">Magasins</a></li>
+              <li><a id="elemNav" href="#section4">Bons plans</a></li>
             </ul>
             <a href="projet_page_client.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
             <a href="projet_page_panier.php"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
@@ -125,19 +127,16 @@
         <div class="row">
           <div class="col-sm-12">
             <div id="section1" class="container-fluid sec">
-              <img src="Images/2.jpg" alt="photo" width="60%" style="margin-top: 56px;">
+              <a href="projet_page_nouveautes.php"><img src="Images/2.jpg" alt="photo" width="60%" style="margin-top: 56px;"></a>
             </div>
             <div id="section2" class="container-fluid sec">
-              <a href="projet_page_nouveautes.php"><img src="Images/3.jpg" alt="photo" width="60%" style="margin-top: 56px;"></a>
+              <a href="projet_page_vetements.php"><img src="Images/3.jpg" alt="photo" width="60%" style="margin-top: 56px;"></a>
             </div>
             <div id="section3" class="container-fluid sec">
-              <img src="Images/2.jpg" alt="photo" width="60%" style="margin-top: 56px;">
+              <a href="projet_page_magasins.php"><img src="Images/8.jpg" alt="photo" width="60%" style="margin-top: 56px;"></a>
             </div>
             <div id="section4" class="container-fluid sec">
-              <img src="Images/4.jpg" alt="photo" width="60%" style="margin-top: 56px;">
-            </div>
-            <div id="section5" class="container-fluid sec">
-              <img src="Images/8.jpg" alt="photo" width="60%" style="margin-top: 56px;">
+              <a href="projet_page_plans.php"><img src="Images/4.jpg" alt="photo" width="60%" style="margin-top: 56px;"></a>
             </div>
           </div>
         </div>

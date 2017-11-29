@@ -9,6 +9,8 @@
     div.container {
       padding: 67px 0px 10px 0px;
       text-align: center;
+      background-color: #D3D3D3;
+      width: 100%;
     }
     div.container li{
       font-size: 25px;
@@ -33,6 +35,21 @@
       margin-left: auto;
       margin-right: auto;
     }
+    .taille {
+      width: 39% ;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      background-color: gray;
+      border-radius: 5px;
+      border: gray;
+    }
+    .navbar-default .navbar-brand {
+      color: white;
+    }
+    .navbar-default .navbar-nav > li > a{
+      color: white;
+    }
     td {
       min-height: 60px;
       padding: 10px 5px 10px 5px;
@@ -49,7 +66,7 @@
       font-size: 30px;
     }
     .tableau {
-    padding: 77px 0px 20px 0px;}
+      padding: 77px 0px 20px 0px;}
     .desc p{
       padding: 150px 0px 0px 20px;
     }
@@ -65,6 +82,7 @@
       font-size: 25px;
     }
     .size {
+      text-align: center;
       background-color: gray;
       border-radius: 5px;
       border: gray;
@@ -72,5 +90,10 @@
     }
     .btn {
       vertical-align: text-bottom;
+    }
+    #footer {
+      width: 100%;
+      position: absolute;
+      bottom: 0%;
     }
 </style>
