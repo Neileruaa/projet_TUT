@@ -1,3 +1,6 @@
+<?php require '_header.php'; ?>
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -84,7 +87,31 @@
       </div>
     </nav>
 
-    <div class="row imgz">
+
+
+    <!-- test integration panierPHP -->
+<div class="row imgz">
+    <?php $products = $DB->requete('SELECT * FROM products');
+        foreach ($products as $product):?>
+    <div class="box">
+        <div class="col-sm-3">
+          <a href="projet_page_article_select.php?id=<?= $product->id;?>" class="thumbnail">
+            <img src="img/<?=$product->image_name;?>" width="300px;">
+            <p><?= $product->name;?></p>
+            <p class="prix"><?= number_format($product->price,2,","," "); ?>€</p>
+          </a>
+        </div>
+    </div>
+    <?php endforeach ?>
+</div>
+
+
+
+
+
+
+
+    <!-- <div class="row imgz">
         <div class="col-sm-3">
           <a href="projet_page_article_select.php?id=1" class="thumbnail">
             <img src="fringues/1.jpg" alt="pull">
@@ -113,7 +140,7 @@
             <p class="prix">PRIX</p>
           </a>
         </div>
-      </div>
+    </div>
 
       <div class="row imgz">
           <div class="col-sm-3">
@@ -330,7 +357,7 @@
                           <p class="prix">PRIX</p>
                         </a>
                       </div>
-                    </div>
+                    </div> -->
 
       <div id="footer">
         <div>
