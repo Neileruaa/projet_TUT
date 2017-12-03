@@ -83,7 +83,7 @@
               <li><a id="elemNav" href="../donneeEspaceMembre/type_inscription.php">S'inscrire</a></li>
             </ul>
             <a href="projet_page_client.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
-            <a href="projet_page_panier.php"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+            <a href="../panierPHP/index.php"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
           </div>
         </div>
       </div>

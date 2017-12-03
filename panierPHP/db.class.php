@@ -5,9 +5,9 @@
    */
     class DB{
     private $host = 'localhost';
-    private $username = 'root';
-    private $password = 'titi2020';
-    private $database = 'test';
+    private $username = 'id2957716_adrey';
+    private $password = 'titi20/20';
+    private $database = 'id2957716_jules';
     private $db;
 
     public function __construct($host = null, $username = null, $password = null, $database = null){
