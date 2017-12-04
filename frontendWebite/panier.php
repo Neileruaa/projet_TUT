@@ -24,4 +24,5 @@ require '_header.php';
     <tr><td></td><td></td><td><input type="submit" value="Recalculer" ></td><td>Total : <?= number_format($panier->total(),2,',',' ');?>€</td></tr>
 </table>
 </form>
+<a href="projet_page_nouveautes.php">Revenir aux achats</a>
 <?php require 'footer.php';?>

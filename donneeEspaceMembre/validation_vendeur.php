@@ -15,7 +15,7 @@
       $user = $requser->fetch();
         if ($user['confirm']==0) {
 
-            $update_user = $bdd -> prepare("UPDATE membre SET confirm = 1 WHERE email = ? AND confirmkey = ?");
+            $update_user = $bdd -> prepare("UPDATE membre SET vendeur=1, confirm = 1 WHERE email = ? AND confirmkey = ?");
             $update_user->execute(array($mail,$key));
             echo "Votre compte a bien été confirmé";
             ?>

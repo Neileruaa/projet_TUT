@@ -12,7 +12,7 @@ if(isset($id_recup) AND $id_recup>0){
     $json['error'] = false;
     $json['total'] = number_format($panier->total(),2,',',' ');
     $json['countObject'] = $panier->countObject();
-
+    header('Location: panier.php');
     $json['message']='Le produit a bien été ajouter a votre panier.';
 }else {
     $json['message']='Vous n\'avez pas selectionner de produits a ajouter au panier,
