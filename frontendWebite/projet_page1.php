@@ -1,34 +1,25 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jules</title>
-    <link rel="shortcut icon" type="image/x-icon" href="Images/icone.ico">
-    <link rel="stylesheet" href="projet_page1_style.css">
-    <link rel="stylesheet" href="Bootstrap/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<?php include "head.php"; ?>
 
     <style>
           .sec {
-            margin-bottom: 20px;
-
+            margin-bottom: 80px;
+          }
+          .sec a img{
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
           }
           nav#myScrollspy.col-sm-3 {
             height: 100%;
           }
           div.container {
             text-align: center;
-            background-color: #D3D3D3;
+            background-color: #FFE4E1;
             width: 100%;
           }
           div.container li{
             font-size: 25px;
           }
           body {
-            background-color: #D3D3D3;
+            background-color: #FFE4E1;
             color: black;}
             a {
               color: black;
@@ -36,6 +27,9 @@
           a:link {
             color: black;
             text-decoration: none;
+          }
+          #myCarousel{
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
           }
           #elemNav {
             padding-bottom: 22px;

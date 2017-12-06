@@ -9,14 +9,14 @@
     div.container {
       padding: 67px 0px 10px 0px;
       text-align: center;
-      background-color: #D3D3D3;
+      background-color: #FFE4E1;
       width: 100%;
     }
     div.container li{
       font-size: 25px;
     }
     body {
-      background-color: #D3D3D3;
+      background-color: #FFE4E1;
       color: black;}
       a {
         color: black;
@@ -31,7 +31,7 @@
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
       width: : 60%;
       min-height: 400px;
-      background-color: #D3D3D3;
+      background-color: #FFE4E1;
       margin-left: auto;
       margin-right: auto;
     }

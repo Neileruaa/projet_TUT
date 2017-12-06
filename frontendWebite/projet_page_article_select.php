@@ -4,22 +4,9 @@ if(isset($_GET['id'])){
     $id_recu = $_GET['id'];
     $products = $DB->requete('SELECT * FROM products WHERE id='.$id_recu);
 }
-
+include "head.php";
+include "style.php";
 ?>
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jules</title>
-    <link rel="shortcut icon" type="image/x-icon" href="Images/icone.ico">
-    <link rel="stylesheet" href="projet_page1_style.css">
-    <link rel="stylesheet" href="Bootstrap/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <?php include "style.php"; ?>
 
     <script>
 		function addToPanier() {

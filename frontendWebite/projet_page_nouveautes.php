@@ -1,4 +1,5 @@
-<?php require '_header.php'; ?>
+<?php require '_header.php';
+include "head.php"; ?>
 
 
 <!DOCTYPE html>

@@ -8,38 +8,6 @@ body {
   position: absolute;
   z-index: 10
 }
-.menu {
-
-  width: 86px;
-  height: 87px;
-  overflow: hidden;
-  position: absolute;
-}
-.menu:hover {
-  width: 200px;
-  height: 387px;
-}
-.sous-menu {
-  z-index: 10;
-  width: 200px;
-  height: 210px;
-  position: relative;
-  border-radius: 5%;
-  border: solid black 1px;
-  background-color: #942222;
-  margin: 0px;
-  padding:0px;
-  top: 87px;
-}
-.sous-menu li a{
-  font-size: 30px;
-  color: black;
-  padding: 5px 0px;
-  margin: 0px;
-}
-.sous-menu li {
-  padding: 5px 0px;
-}
 #header {
   padding: 0px;
   margin: 0px;
@@ -48,10 +16,8 @@ body {
 
 #footer {
   width: 100%;
-  bottom: 0%;
-  position: absolute;
   padding-top: 20px;
-  background: #942222;
+  background: #03224C;
   height: 110px;
   float: inherit;
 }
@@ -73,7 +39,7 @@ a:link {
 }
 .dropbtns {
     background-color: #942222;
-    color: black;
+    color: white;
     padding: 16px;
     font-size: 16px;
     border: 1px solid black;
