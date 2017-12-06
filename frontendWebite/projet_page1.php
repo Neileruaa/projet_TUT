@@ -136,10 +136,10 @@
               <a href="projet_page_vetements.php"><img src="Images/3.jpg" alt="photo" width="60%" style="margin-top: 56px;"></a>
             </div>
             <div id="section3" class="container-fluid sec">
-              <a href="projet_page_magasins.php"><img src="Images/8.jpg" alt="photo" width="60%" style="margin-top: 56px;"></a>
+              <a href="projet_page_magasins.php"><img src="Images/4.jpg" alt="photo" width="60%" style="margin-top: 56px;"></a>
             </div>
             <div id="section4" class="container-fluid sec">
-              <a href="projet_page_plans.php"><img src="Images/4.jpg" alt="photo" width="60%" style="margin-top: 56px;"></a>
+              <a href="projet_page_plans.php"><img src="Images/8.jpg" alt="photo" width="60%" style="margin-top: 56px;"></a>
             </div>
           </div>
         </div>
