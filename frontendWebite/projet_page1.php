@@ -37,12 +37,9 @@
             color: black;
             text-decoration: none;
           }
-<<<<<<< HEAD
-=======
           #elemNav {
             padding-bottom: 22px;
           }
->>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
     </style>
 
   </head>
@@ -73,20 +70,6 @@
                     <a href="projet_page_vetements.php">Vêtements</a>
                     <a href="projet_page_magasins.php">Magasins</a>
                     <a href="projet_page_plans.php">Bons plans</a>
-<<<<<<< HEAD
-                  </div>
-                </div>
-              </li>
-              <li><a href="#myCarousel">Accueil</a></li>
-              <li><a href="#section1">Section 1</a></li>
-              <li><a href="#section2">Nouveautés</a></li>
-              <li><a href="#section3">Section 3</a></li>
-              <li><a href="#section4">Section 4</a></li>
-              <li><a href="#section5">Section 5</a></li>
-            </ul>
-            <a href="projet_page_client.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
-            <a href="projet_page_panier.php"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
-=======
                     <a href="../../donneeEspaceMembre/connexion.php">Se connecter</a>
                   </div>
                 </div>
@@ -101,7 +84,6 @@
             </ul>
             <a href="projet_page_client.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
             <a href="index.php"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
->>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
           </div>
         </div>
       </div>
@@ -148,21 +130,6 @@
         <div class="row">
           <div class="col-sm-12">
             <div id="section1" class="container-fluid sec">
-<<<<<<< HEAD
-              <img src="Images/2.jpg" alt="photo" width="60%" style="margin-top: 56px;">
-            </div>
-            <div id="section2" class="container-fluid sec">
-              <a href="projet_page_nouveautes.php"><img src="Images/3.jpg" alt="photo" width="60%" style="margin-top: 56px;"></a>
-            </div>
-            <div id="section3" class="container-fluid sec">
-              <img src="Images/2.jpg" alt="photo" width="60%" style="margin-top: 56px;">
-            </div>
-            <div id="section4" class="container-fluid sec">
-              <img src="Images/4.jpg" alt="photo" width="60%" style="margin-top: 56px;">
-            </div>
-            <div id="section5" class="container-fluid sec">
-              <img src="Images/8.jpg" alt="photo" width="60%" style="margin-top: 56px;">
-=======
               <a href="projet_page_nouveautes.php"><img src="Images/2.jpg" alt="photo" width="60%" style="margin-top: 56px;"></a>
             </div>
             <div id="section2" class="container-fluid sec">
@@ -173,7 +140,6 @@
             </div>
             <div id="section4" class="container-fluid sec">
               <a href="projet_page_plans.php"><img src="Images/4.jpg" alt="photo" width="60%" style="margin-top: 56px;"></a>
->>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
             </div>
           </div>
         </div>

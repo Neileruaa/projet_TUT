@@ -10,37 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<<<<<<< HEAD
-    <style>
-          .sec {
-            margin-bottom: 20px;
-            text-align: center;
-          }
-          nav#myScrollspy.col-sm-3 {
-            height: 100%;
-          }
-          div.container {
-            text-align: center;
-            background-color: #D3D3D3;
-            width: 100%;
-          }
-          div.container li{
-            font-size: 25px;
-          }
-          body {
-            background-color: #D3D3D3;
-            color: black;}
-            a {
-              color: black;
-            }
-          a:link {
-            color: black;
-            text-decoration: none;
-          }
-    </style>
-=======
     <?php include "style.php"; ?>
->>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -88,11 +58,7 @@
               </div>
               <div class="infos">
                 <p class="infos_article">Veste noire<br>29.99€ (+2 coloris)</p>
-<<<<<<< HEAD
-              </div>  
-=======
               </div>
->>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
             </a>
           </div>
         </div>
@@ -107,11 +73,7 @@
               </div>
               <div class="infos">
                 <p class="infos_article">Pull col roulé uni laine mérinos<br>45.99€<br>+4 coloris</p>
-<<<<<<< HEAD
-              </div>  
-=======
               </div>
->>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
             </a>
           </div>
         </div>
@@ -126,11 +88,7 @@
               </div>
               <div class="infos">
                 <p class="infos_article">Pull bleu marine<br>39.99€<br>+3 coloris</p>
-<<<<<<< HEAD
-              </div>  
-=======
               </div>
->>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
             </a>
           </div>
         </div>
@@ -145,11 +103,7 @@
               </div>
               <div class="infos">
                 <p class="infos_article">T-shirt bleu gris<br>29.99€<br>+2 coloris</p>
-<<<<<<< HEAD
-              </div>  
-=======
               </div>
->>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
             </a>
           </div>
         </div>
@@ -164,11 +118,7 @@
               </div>
               <div class="infos">
                 <p class="infos_article">Tee-shirt col rond imprimé poche<br>19.99€</p>
-<<<<<<< HEAD
-              </div>  
-=======
               </div>
->>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
             </a>
           </div>
         </div>
@@ -183,11 +133,7 @@
               </div>
               <div class="infos">
                 <p class="infos_article">Pull col rond empiècement micro-jacquard<br>29.99€<br>+2 coloris</p>
-<<<<<<< HEAD
-              </div>  
-=======
               </div>
->>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
             </a>
           </div>
         </div>
@@ -202,11 +148,7 @@
               </div>
               <div class="infos">
                 <p class="infos_article">Tee-shirt uni<br>9.99€</p>
-<<<<<<< HEAD
-              </div>  
-=======
               </div>
->>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
             </a>
           </div>
         </div>
@@ -221,11 +163,7 @@
               </div>
               <div class="infos">
                 <p class="infos_article">Veste noire<br>29.99€ (+2 coloris)</p>
-<<<<<<< HEAD
-              </div>  
-=======
               </div>
->>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
             </a>
           </div>
         </div>

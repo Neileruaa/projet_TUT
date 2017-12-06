@@ -10,37 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<<<<<<< HEAD
-    <style>
-          .sec {
-            margin-bottom: 20px;
-            text-align: center;
-          }
-          nav#myScrollspy.col-sm-3 {
-            height: 100%;
-          }
-          div.container {
-            text-align: center;
-            background-color: #D3D3D3;
-            width: 100%;
-          }
-          div.container li{
-            font-size: 25px;
-          }
-          body {
-            background-color: #D3D3D3;
-            color: black;}
-            a {
-              color: black;
-            }
-          a:link {
-            color: black;
-            text-decoration: none;
-          }
-    </style>
-=======
     <?php include "style.php"; ?>
->>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <nav class="navbar navbar-inverse navbar-fixed-top">
