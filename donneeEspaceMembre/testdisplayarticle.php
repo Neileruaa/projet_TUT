@@ -1,12 +1,5 @@
 <?php
-    try{
-          $bdd = mysqli_connect("localhost","root","titi2020","test");
-    }catch(Exception $e){
-        die('Erreur : '.$e->getMessage());
-    }
-
-
-
+    require 'connexion_mysqli.php';
 ?>
 
 

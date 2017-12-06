@@ -9,6 +9,11 @@
     div.container {
       padding: 67px 0px 10px 0px;
       text-align: center;
+<<<<<<< HEAD
+=======
+      background-color: #D3D3D3;
+      width: 100%;
+>>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
     }
     div.container li{
       font-size: 25px;
@@ -33,6 +38,24 @@
       margin-left: auto;
       margin-right: auto;
     }
+<<<<<<< HEAD
+=======
+    .taille {
+      width: 39% ;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      background-color: gray;
+      border-radius: 5px;
+      border: gray;
+    }
+    .navbar-default .navbar-brand {
+      color: white;
+    }
+    .navbar-default .navbar-nav > li > a{
+      color: white;
+    }
+>>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
     td {
       min-height: 60px;
       padding: 10px 5px 10px 5px;
@@ -49,7 +72,11 @@
       font-size: 30px;
     }
     .tableau {
+<<<<<<< HEAD
     padding: 77px 0px 20px 0px;}
+=======
+      padding: 77px 0px 20px 0px;}
+>>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
     .desc p{
       padding: 150px 0px 0px 20px;
     }
@@ -65,6 +92,10 @@
       font-size: 25px;
     }
     .size {
+<<<<<<< HEAD
+=======
+      text-align: center;
+>>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
       background-color: gray;
       border-radius: 5px;
       border: gray;
@@ -73,4 +104,12 @@
     .btn {
       vertical-align: text-bottom;
     }
+<<<<<<< HEAD
+=======
+    #footer {
+      width: 100%;
+      position: absolute;
+      bottom: 0%;
+    }
+>>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
 </style>

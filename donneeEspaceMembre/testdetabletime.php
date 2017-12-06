@@ -1,9 +1,5 @@
 <?php
-				try{
-	            $bdd = mysqli_connect("localhost","root","titi2020","espace_membre");
-        }catch(Exception $e){
-            die('Erreur : '.$e->getMessage());
-        }
+		require 'connexion_mysqli.php';
         $reqadminpost = $bdd -> prepare("DELETE FROM ticket");
         $reqadminpost-> execute();
         $reqadmintest = $bdd-> prepare("ALTER TABLE ticket AUTO_INCREMENT = 1");

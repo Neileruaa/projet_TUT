@@ -20,7 +20,8 @@ session_start();
 			color : red;
 		}
 		.jumbotron{
-			width: 500px;		}
+			width: 500px;
+		}
 	</style>
 	<script>
 		function goToTicket() {
@@ -40,10 +41,9 @@ session_start();
 		<?php
 			if(isset($_SESSION['id']) AND $userinfo['id']==$_SESSION['id']){
 		?>
-		<a href="#">Editer mon profil</a>
-		<input type="button" name="lien_vers_timetable" value="Choisir un créneau" onclick="goToTicket()">
-		<a href="demande_admin.php">Demande pour devenir un admin</a>
-		<a href="deconnexion.php">Se deconnecter</a>
+			<a href="#">Editer mon profil</a>
+			<input type="button" name="lien_vers_timetable" value="Choisir un créneau" onclick="goToTicket()">
+			<a href="deconnexion.php">Se deconnecter</a>
 		<?php
 		}
 		?>
@@ -58,6 +58,11 @@ session_start();
 							echo "<input type=\"button\" name=\"lien_vers_MAIL\" value=\"Finir validation avec mail\" onclick=\"goToProfil()\"> ";
 						}
 			?>
+
+
+			<?php if ($userinfo['vendeur']==1) {?>
+				<a href="ajout_ticket.php">ajouter un ticket</a>
+			<?php }?>
 		</div>
 	</div>
 </div>

@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+<?php require '_header.php'; ?>
+<?php
+if(isset($_GET['id'])){
+    $id_recu = $_GET['id'];
+    $products = $DB->requete('SELECT * FROM products WHERE id='.$id_recu);
+}
+
+?>
+
+>>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
 <!DOCTYPE html>
 <html>
   <head>
@@ -12,6 +24,16 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <?php include "style.php"; ?>
 
+<<<<<<< HEAD
+=======
+    <script>
+		function addToPanier() {
+			var idFromPhp = "<?php echo $id_recu ?>"
+			window.location="addpanier.php?id=".concat(idFromPhp);
+		}
+	</script>
+
+>>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -43,12 +65,17 @@
               <li><a href="projet_page1.php">Accueil</a></li>
             </ul>
             <a href="projet_page_client.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+<<<<<<< HEAD
             <a href="projet_page_panier.php"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+=======
+            <a href="panier.php"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+>>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
           </div>
         </div>
       </div>
     </nav>
 
+<<<<<<< HEAD
     <div class="container">
         <table style="width:60%;">
           <tr>
@@ -65,6 +92,43 @@
                   <a href="#">XS</a>
                 </div>
               </div>
+=======
+    <!-- On recupere l'id du produit et en fonction on va chercher les bonnes informations -->
+    <div class="container">
+        <table style="width:60%;">
+          <tr>
+            <td class="desc"><img src="img/<?php  foreach ($products as $product) {
+                echo $product->image_name;
+            }?>" alt="pull"><p><?php  foreach ($products as $product) {
+                echo $product->content;
+            }?></p>
+
+            <button type="button" class="btn btn-primary btn-lg" style="background: gray; border: gray;" onclick="">Ajouter au panier</button>
+            <a href="addpanier.php?id=<?php  foreach ($products as $product) {
+                echo $product->id;
+            }?>" class="add addPanier">add</a>
+
+        </td>
+          </tr>
+          <tr><td><p class="prix"><?php  foreach ($products as $product) {
+              echo $product->price;
+          }?></p>
+            <nav class="navbar navbar-default taille"> <!--Barre de navigation dans les tailles-->
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <span class="navbar-brand">Taille</span>
+                </div>
+                <ul class="nav navbar-nav">
+                  <li><a href="#">XXL</a></li>
+                  <li><a href="#">XL</a></li>
+                  <li><a href="#">L</a></li>
+                  <li><a href="#">M</a></li>
+                  <li><a href="#">S</a></li>
+                  <li><a href="#">XS</a></li>
+                </ul>
+              </div>
+            </nav>
+>>>>>>> 9cddb1d3ea215c78d5b8bee3f01e6d5e4cf1614a
             </td>
           </tr>
         </table>

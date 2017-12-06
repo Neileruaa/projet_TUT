@@ -33,7 +33,7 @@
   		        				$erreur = '<p style="color : green;">Votre compte a bien été enregistré!'."un mail a été envoyé à cette adresse  ".$mail;
   		        				//header('Location:espacemembre_lenovo.php');
   														//PARTIE ENVOIE DU MAIL
-  														include 'txt_mail_inscription.php';
+  														include 'txt_mail_inscription_vendeur.php';
                     }else {
                       $erreur = "Le code vendeur n'est pas le bon !";
                     }
